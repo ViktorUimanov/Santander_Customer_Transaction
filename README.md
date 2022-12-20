@@ -10,7 +10,7 @@ After running stacking algorithm with Logistic regression we obtained following 
 <img width="1119" alt="image" src="https://user-images.githubusercontent.com/100875246/208742329-08d1080d-d1b9-40fe-81d1-cc2f05e37ccf.png">
 
 
-|                | lgbm_weight | NN_Focal_Loss_weight |   SVM_weight  | Bias_weight | Privat_score (AUC) |
+|                | Lgbm_weight | NN_Focal_Loss_weight |   SVM_weight  | Bias_weight | Privat_score (AUC) |
 |:--------------:|:-----------:|:--------------------:|:-------------:|:-----------:|:------------------:|
 | Logistic_Stack |    0.6945   |        0.2010        |     0.0506    |    0.0539   |      0.90103       |
 |    manual      |    0.8000   |        0.1000        |     0.0000    |    0.1000   |      0.89819       |
