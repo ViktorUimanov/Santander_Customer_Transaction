@@ -10,15 +10,11 @@ After running stacking algorithm with Logistic regression we obtained following 
 <img width="1119" alt="image" src="https://user-images.githubusercontent.com/100875246/208742329-08d1080d-d1b9-40fe-81d1-cc2f05e37ccf.png">
 
 
-| Architecture | Train accuracy | Train loss | Test accuracy | Test loss |           |
-|:------------:|:--------------:|:----------:|:-------------:|:---------:|:---------:|
-|    1-32-1    |                |            |               |           |           |
-|    2-32-1    |                |            |               |           |           |
-|    2-64-1    |                |            |               |           |           |
-|    3-64-1    |                |            |               |           |           |
-|    2-32-2    |                |            |               |           |           |
-|    1-64-2    |                |            |               |           |           |
-|    2-64-2    |                |            |               |           |           |
-|    3-64-2    |                |            |               |           |           |
-|    1-32-3    |                |            |               |           |           |
-|    2-64-3    |                |            |               |           |           |
+|                | lgbm_weight | NN_Focal_Loss_weight |   SVM_weight  | Bias_weight | Privat_score (AUC) |
+|:--------------:|:-----------:|:--------------------:|:-------------:|:-----------:|:------------------:|
+| Logistic_Stack |    0.6945   |        0.2010        |     0.0506    |    0.0539   |      0.90103       |
+|    manual      |    0.8000   |        0.1000        |     0.0000    |    0.1000   |      0.89819       |
+|    manual      |    1.0000   |        0.0000        |     0.0000    |    0.0000   |      0.89225       |
+|    manual      |    0.0000   |        1.0000        |     0.0000    |    0.0000   |      0.89020       |
+|    manual      |    0.3000   |        0.3000        |     0.2000    |    0.2000   |      0.88959       |
+|    manual      |    0.2500   |        0.2500        |     0.2500    |    0.2500   |      0.86031       |
