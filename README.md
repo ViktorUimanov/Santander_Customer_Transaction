@@ -6,5 +6,6 @@ We found out that there are no solutions proposing stacked models. Although Grad
 
 ## Results
 
-After running stacking algorithm with Logistic regression we obtained following weights:
+After running stacking algorithm with Logistic regression we obtained following results:
+<img width="1119" alt="image" src="https://user-images.githubusercontent.com/100875246/208742329-08d1080d-d1b9-40fe-81d1-cc2f05e37ccf.png">
 
